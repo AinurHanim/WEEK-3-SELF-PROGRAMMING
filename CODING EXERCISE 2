@@ -1,0 +1,28 @@
+package numericData;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		String name;
+		String college;
+		double sem1 = 3.67;
+		double sem2 = 3.87;
+		double sum;
+		double avg;
+		
+		
+		sum = sem1 + sem2;
+		avg = sum/2;
+
+		System.out.println("Name : Ainur Hanim Binti Abdul Halim");
+		System.out.println("College : Penang Matriculation College");
+		System.out.println("Module Name : Computer Science Module");
+		System.out.println("Matric Number : MS20131723610");
+		System.out.println();
+		System.out.println("Result PNGK Semester 1 : " + sem1);
+		System.out.println("Result PNGK Semester 2 : " + sem2);
+		System.out.printf("Result CGPA for both semester : %10.2f " ,avg);
+
+	}
+
+}
