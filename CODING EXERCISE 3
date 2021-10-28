@@ -1,0 +1,79 @@
+package numericData;
+
+import java.util.Scanner;
+
+public class Exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1;
+		int num2;
+		int num3;
+		int num4;
+		int num5;
+		int num6;
+		String name;
+		double total;
+		double amount;
+		double balance;
+		char Y;
+		char N;
+		
+		
+		Scanner scanMe = new Scanner(System.in);
+		
+		System.out.println("Please enter your name : ");
+		name = scanMe.next();
+		System.out.println("My name is : " + name);
+		
+		System.out.println("Please enter your total : ");
+		total = scanMe.nextDouble();
+		System.out.println("Your total is : " + total);
+		
+		
+		System.out.println("Please enter your amount : ");
+		amount = scanMe.nextDouble();
+		
+		balance = total - amount ;
+		
+		System.out.println("Your current amount : " + balance);
+		System.out.println("Do you want to proceed : ");
+		
+		Y = scanMe.next().charAt(0);
+		System.out.println("Yes " + Y);
+		N = scanMe.next().charAt(0);
+		System.out.println("No " + N);
+		
+		
+		System.out.println("Please enter amount 1: ");
+		num1 = scanMe.nextInt();
+		System.out.println("Amount is :" + num1);
+		
+		
+		System.out.println("Please enter amount 2: ");
+		num2 = scanMe.nextInt();
+		System.out.println("Amount is :" + num2);
+		
+	
+		System.out.println("Please enter amount 3: ");
+		num3 = scanMe.nextInt();
+		System.out.println("Amount is :" + num3);
+		
+	
+		System.out.println("Please enter amount 4: ");
+		num4 = scanMe.nextInt();
+		System.out.println("Amount is :" + num4);
+		
+	
+		System.out.println("Please enter amount 5: ");
+		num5 = scanMe.nextInt();
+		System.out.println("Amount is :" + num5);
+		
+
+		System.out.println("Please enter amount 6: ");
+		num6 = scanMe.nextInt();
+		System.out.println("Amount is :" + num6);
+
+	}
+
+}
